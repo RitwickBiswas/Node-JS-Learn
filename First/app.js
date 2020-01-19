@@ -13,3 +13,6 @@ var timer = setInterval(function(){ //this function runs for infinity. Make sure
         clearInterval(timer); //clears the time
     }
 },2000);
+
+console.log(__dirname); //returns the directory in which the file is present;
+console.log(__filename); //returns the file name with the full path;
